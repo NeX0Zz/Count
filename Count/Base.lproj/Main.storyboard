@@ -39,7 +39,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="arrow.clockwise" catalog="system"/>
                                         <connections>
-                                            <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M6T-3c-tPG"/>
+                                            <action selector="didTapResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M6T-3c-tPG"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAn-5e-ye9">
@@ -48,7 +48,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="-"/>
                                         <connections>
-                                            <action selector="blueButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ieM-al-tDu"/>
+                                            <action selector="didTapBlueButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ieM-al-tDu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4a-bB-oXB">
@@ -58,7 +58,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="+"/>
                                         <connections>
-                                            <action selector="redButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hFs-Bc-KrS"/>
+                                            <action selector="didTapRedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hFs-Bc-KrS"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -95,10 +95,10 @@
                     <connections>
                         <outlet property="blueButton" destination="CAn-5e-ye9" id="jeY-uX-fCV"/>
                         <outlet property="changeView" destination="OhI-Bx-vs4" id="Gwa-0U-0JB"/>
+                        <outlet property="countLabel" destination="oLq-zq-AVg" id="uDe-Ew-nC1"/>
                         <outlet property="pressButton" destination="H1X-M6-U07" id="dR2-4w-a5O"/>
                         <outlet property="redButton" destination="a4a-bB-oXB" id="2sA-QH-3be"/>
                         <outlet property="resetButton" destination="2QS-XF-lWa" id="uzf-7Q-QoO"/>
-                        <outlet property="textLableCount" destination="oLq-zq-AVg" id="uDe-Ew-nC1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -115,7 +115,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
