@@ -2,12 +2,12 @@ import Foundation
 import UIKit
 class ViewController: UIViewController {
     
-    @IBOutlet weak var pressButton: UIButton!
-    @IBOutlet weak var countLabel: UILabel!
-    @IBOutlet weak var blueButton: UIButton!
-    @IBOutlet weak var redButton: UIButton!
-    @IBOutlet weak var resetButton: UIButton!
-    @IBOutlet weak var changeView: UITextView!
+    @IBOutlet weak private var pressButton: UIButton!
+    @IBOutlet weak private var countLabel: UILabel!
+    @IBOutlet weak private var blueButton: UIButton!
+    @IBOutlet weak private var redButton: UIButton!
+    @IBOutlet weak private var resetButton: UIButton!
+    @IBOutlet weak private var changeView: UITextView!
     
     private func getDate() -> String{
         let getDate = Date()
